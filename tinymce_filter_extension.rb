@@ -28,11 +28,11 @@ private
   end
   
   def pages_controller
-    defined?(Admin::PagesController) ? Admin::PagesController : Admin::PageController
+    Admin::PagesController
   end
   
   def snippets_controller
-    defined?(Admin::SnippetsController) ? Admin::SnippetsController : Admin::SnippetController
+    Admin::SnippetsController
   end
   
   def extension_asset_paths(*filenames)
